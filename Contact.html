@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Rumah Sakit
+    </title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+    <link rel="stylesheet" href="general.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Home.html"><img src="img/logors.jpg" width="75px" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+      aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="Jadwal_dokter.html">Jadwal dokter</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+    <!-- Body -->
+    <!-- Contact Us -->
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <P></p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>JL. Raya Ngemplak Kemasan Widodomartani Ngemplak Sleman Yogyakarta</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"> <i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Call Center</h3>
+                        <p>0274-4461098</p>
+                        <h3>Pendaftaran Online</h3>
+                        <p>0812-2996-6297</p><p>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>rsumitraparamedika@yahoo.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Kritik & Saran</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message....</span>
+                    </div>
+                    <div class="inputBox">
+
+
+<input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+   
+</body>
+
+</html>
+<style> 
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+.slide img{
+  height: 600px;
+}
+
+#why{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.img-fluid{
+  height: 300px;
+  display: block;
+  margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+#programs{
+  margin-top: 50px;
+}
+
+.pro-img
+{
+    height: 150px;
+    margin-top: 20px;
+    display: block;
+  margin-left: auto;
+    margin-right: auto;
+  width: 50%
+}
+
+
+#profile{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.pro-image
+{
+    height: 450px;
+    margin-top: 20px;
+    display: block;
+  margin-left: auto;
+    margin-right: auto;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#program{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.pro-item{
+    height: 300px;
+    margin-top: 15px;
+    display: block;
+  margin-left: auto;
+    margin-right: auto;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.container
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box
+{
+    position: relative;
+    padding:20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon
+{
+   min-width: 60px;
+   height: 60px;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+.container .contactInfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    color: black;
+    flex-direction: column;
+}
+.contactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm h2
+{
+    color: #333;
+}
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width:100%;
+    padding:5px 0;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span
+{
+    position: absolute;
+    left:0;
+    padding:5px 0;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox  input:focus ~ span,
+.contactForm .inputBox  input:valid ~ span,
+.contactForm .inputBox  textarea:focus ~ span,
+.contactForm .inputBox  textarea:valid ~ span
+{
+    color: #e91e63;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox  input[type="submit"]
+{
+    width:100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction:column;
+    }
+    .container .contactInfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo
+    {
+        width: 100%;
+    }
+}
+
+.list {
+  padding: 50px;
+  padding: 10px 0;  
+}
+
+.list hr{
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}
+
+.list label{
+  padding: 10px 0;
+}
+
+.list input[type=text], input[type=password], textarea {  
+  width: 50%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}
+</style>
